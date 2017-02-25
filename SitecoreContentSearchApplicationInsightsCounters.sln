@@ -2,6 +2,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentSearchCounters", "ContentSearchCounters", "{2E500111-9C67-4DAF-835A-5B03D452E6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.ContentSearchCounters", "src\Foundation\ContentSearchCounters\code\Foundation.ContentSearchCounters.csproj", "{535AEC82-84A4-4C54-8A8B-23154FA32C29}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Project", "1. Project", "{5F9D9DE3-D078-4F01-A514-9F5413881378}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Feature", "2. Feature", "{87A1D61B-A009-49BE-AC32-7FC756F599E3}"
@@ -26,6 +30,22 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.always|Any CPU.ActiveCfg = always|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.always|Any CPU.Build.0 = always|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.always|x64.ActiveCfg = always|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.always|x64.Build.0 = always|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.ci|Any CPU.ActiveCfg = ci|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.ci|Any CPU.Build.0 = ci|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.ci|x64.ActiveCfg = ci|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.ci|x64.Build.0 = ci|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Debug|x64.ActiveCfg = Debug|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Debug|x64.Build.0 = Debug|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Release|x64.ActiveCfg = Release|x64
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29}.Release|x64.Build.0 = Release|x64
 		{66B5F976-3BB1-4197-9140-2F09D9760CAB}.always|Any CPU.ActiveCfg = Release|Any CPU
 		{66B5F976-3BB1-4197-9140-2F09D9760CAB}.always|Any CPU.Build.0 = Release|Any CPU
 		{66B5F976-3BB1-4197-9140-2F09D9760CAB}.always|x64.ActiveCfg = Release|Any CPU
@@ -47,6 +67,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{2E500111-9C67-4DAF-835A-5B03D452E6CB} = {B662B8BE-FC02-46FC-94EA-2BED397B4FB1}
+		{535AEC82-84A4-4C54-8A8B-23154FA32C29} = {2E500111-9C67-4DAF-835A-5B03D452E6CB}
 		{E8B22CC3-DA39-4BBC-A05A-30CFA35E971D} = {5F9D9DE3-D078-4F01-A514-9F5413881378}
 		{66B5F976-3BB1-4197-9140-2F09D9760CAB} = {E8B22CC3-DA39-4BBC-A05A-30CFA35E971D}
 	EndGlobalSection
