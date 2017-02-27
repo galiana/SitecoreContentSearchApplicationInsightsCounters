@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<counters xmlns="urn:sitecore:core:performancecounters" >
+  <category name="Sitecore.ContentSearch.Search" description="Sitecore content search related counters">
+    <counter name="Total Searches" type="Default" description="The total number of searches executed"/>
+    <counter name="Running Searches" type="Default" description="The total number of searches executed"/>
+    <counter name="Average Search Time" type="Default" description="The total number of searches executed"/>
+  </category>
+</counters>

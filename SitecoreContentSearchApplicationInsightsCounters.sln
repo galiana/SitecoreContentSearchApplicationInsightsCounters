@@ -18,6 +18,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Environment", "src\Project\Environment\Project.Environment.csproj", "{66B5F976-3BB1-4197-9140-2F09D9760CAB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registration", "Registration", "{EF32B365-2124-44DE-B90B-AD4B10698F8A}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\ContentSearchCounters\Utils\Sitecore.ContentSearch.Counters.xml = src\Foundation\ContentSearchCounters\Utils\Sitecore.ContentSearch.Counters.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		always|Any CPU = always|Any CPU
@@ -71,5 +76,6 @@ Global
 		{535AEC82-84A4-4C54-8A8B-23154FA32C29} = {2E500111-9C67-4DAF-835A-5B03D452E6CB}
 		{E8B22CC3-DA39-4BBC-A05A-30CFA35E971D} = {5F9D9DE3-D078-4F01-A514-9F5413881378}
 		{66B5F976-3BB1-4197-9140-2F09D9760CAB} = {E8B22CC3-DA39-4BBC-A05A-30CFA35E971D}
+		{EF32B365-2124-44DE-B90B-AD4B10698F8A} = {2E500111-9C67-4DAF-835A-5B03D452E6CB}
 	EndGlobalSection
 EndGlobal
