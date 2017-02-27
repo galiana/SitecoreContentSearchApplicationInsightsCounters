@@ -1,0 +1,89 @@
+----item----
+version: 1
+id: {B1BF22BC-7B88-49E1-8E83-D7F683E0A541}
+database: core
+path: /sitecore/client/Your Apps/Content Search Performance Counters/Content Search Performance counters
+parent: {73C1819F-943C-4936-BFCD-86437C198FE8}
+name: Content Search Performance counters
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+created: 20170227T195456Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2056
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" ph="Page.Code" uid="{DA62F98E-6689-4CE4-815B-3805F14294F1}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{956F3E67-76E3-4C2B-8932-4AE6CD7BC7C4}" />
+    <r id="{78D8260C-4FF9-4627-BF64-0B884ACA4BA1}" ph="GlobalHeader" uid="{B50DCCE7-293F-4439-8A1C-713881A4663C}" />
+    <r id="{C220369A-84A3-482B-A936-F75CDCB23736}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{F186EE3D-EAD9-486C-BF32-B73BCF7B7658}" />
+    <r id="{A9C1F47A-1E2B-4852-946F-6F9FAB939056}" ph="GlobalFooter" uid="{C8CFD6C0-52BA-4658-9D34-89E903873927}" />
+    <r id="{047F31EF-7D7D-42E5-BC9B-F39FEAB0B83B}" ph="ApplicationHeader" uid="{07255D46-2066-4E9B-BCA9-82789D897589}" />
+    <r id="{0DD00367-0B7D-4955-BB70-397523711B6D}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{FC1D48FB-09C6-47C9-9E52-69BCFEDD8B69}" />
+    <r id="{89C69D11-A416-4193-938C-3D631DCD1798}" par="Id=Breadcrumb&amp;NavigationRoot=%7b161B44BD-632D-4A72-8BA1-3EA69591A82F%7d" ph="ApplicationHeader.BreadCrumb" uid="{8AAC6133-DFB9-4D73-8910-B6A55B6C8551}" />
+    <r ds="{C1E77C78-7332-481D-AEA3-B2EA2E58ECDB}" id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=HeaderTitle&amp;Text=Content+Search+Performance+Counters" ph="ApplicationHeader.Title" uid="{F015AA9A-8B5D-420C-ABAD-DB9CECDB5C92}" />
+    <r id="{357DC261-E48D-4B04-85BC-3009300A6AE1}" ph="ApplicationContent" uid="{0AD42394-E2FD-4717-A506-365930257B34}" />
+    <r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=Main" ph="ApplicationContent.Main" uid="{89AC0B3A-7B6B-46D4-91DE-666D177C37C8}" />
+    <r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=MessageBar" ph="Main.Content" uid="{0B9F8D75-012E-4D77-824A-8B966C750D15}" />
+    <r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=Button1&amp;IsEnabled=1&amp;IsVisible=1&amp;ButtonType=Primary" ph="Main.Content" uid="{DEA36322-9F4C-4BDC-B069-D906241A345E}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: bd673b9f-4974-4396-a5e6-757ddfe4ab17
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 35
+
+Content Search Performance counters
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170227T195456Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd673b9f-4974-4396-a5e6-757ddfe4ab17
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170227T221639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
